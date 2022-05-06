@@ -93,15 +93,15 @@
  }
 
  .rps .rock {
-     background-image: url('./rock.jpg');
+     background-image: url('./assets/rock.jpg');
  }
 
  .rps .paper {
-     background-image: url('./paper.jpg');
+     background-image: url('./assets/paper.jpg');
  }
 
  .rps .scissors {
-     background-image: url('./scissors\ .jpg');
+     background-image: url('./assets/scissors\ .jpg');
  }
 
  .rps .con, .after .con {

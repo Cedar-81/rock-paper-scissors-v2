@@ -109,11 +109,11 @@ let hm = rps.addEventListener('click', e => {
         let compstyle = document.querySelector('.comstyle')
 
         if(comp == 'Rock' ) {
-            bc = `url('./rock.jpg')`
+            bc = `url('./assets/rock.jpg')`
         }else if(comp == 'Paper' ) {
-            bc = `url('./paper.jpg')`
+            bc = `url('./assets/paper.jpg')`
         } else if(comp == 'Scissors' ) {
-            bc = `url('./scissors\ .jpg')`
+            bc = `url('./assets/scissors\ .jpg')`
         }
 
         compstyle.setAttribute('style', `background-image:${bc}`)
@@ -126,11 +126,11 @@ let hm = rps.addEventListener('click', e => {
         let hc;
 
         if(human == 'Rock' ) {
-            hc = `url('./rock.jpg')`
+            hc = `url('./assets/rock.jpg')`
         }else if(human == 'Paper' ) {
-            hc = `url('./paper.jpg')`
+            hc = `url('./assets/paper.jpg')`
         } else if(human == 'Scissors' ) {
-            hc = `url('./scissors\ .jpg')`
+            hc = `url('./assets/scissors\ .jpg')`
         }
 
         hum_style.setAttribute('style', `background-image:${hc}`)
