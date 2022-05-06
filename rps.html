@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="rps.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="scoreboard">
+        <!-- <p class="label">Scoreboard</p> -->
+        <div class="score_label">
+            <div class="scorelabelcon">
+               <p class="h_label">Human Score</p> 
+               <p class='h_score'></p>
+            </div>
+
+            <div class="scorelabelcon">
+                <p class="c_label">Computer Score</p> 
+                <p class="c_score"></p>
+            </div>
+            
+
+            
+        </div>
+        
+    </div>
+
+    <div class="rescon"><div class="reset" onclick="reset()">Reset</div></div>
+
+    <div class="rps" >
+        <div class="con">
+            <p class="rock" >Rock</p>
+            <p class='paper'>Paper</p>
+            <p class="scissors">Scissors</p>
+            
+        </div>
+
+     
+    </div>
+
+    <div class="after">
+        <div class="con">
+            <p class="humstyle"></p>
+            <div class="wins">
+              <p class="winner"></p>
+              <div  class="replay" style="display: none;" onclick="replay()"><p>Play Again</p></div>  
+            </div>
+            
+            <p class="comstyle"></p>
+
+        </div>
+        
+    </div>
+
+  
+
+    
+
+    <script src="rps.js"></script> 
+</body>
+</html>
